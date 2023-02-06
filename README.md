@@ -10,4 +10,4 @@ Voor dit deel van de opdracht moeten we het design van onze eerste profile card 
 Ik heb het CSS bestand van mijn profile-card gekopierd en in deze repo geplakt. hetzelfde heb ik gedaan met mijn html bestand. Met de images had ik iets meer moeite, omdat ik ze steeds in het verkeerde mapje plaatste, dus wouden ze niet werken.
 
 ## Integreren
-Ik heb de profile card online gezet op de volgende link:
+Ik heb de profile card online gezet op de volgende link: https://gijsvdp21.github.io/connect-your-tribe-profile-card/
