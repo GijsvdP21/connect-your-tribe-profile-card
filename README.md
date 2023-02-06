@@ -16,5 +16,9 @@ Dit wordt ovegeslagen.
 ![image](https://user-images.githubusercontent.com/112858394/216963193-a59adcd4-f823-4b59-9830-326b19088d68.png)
 Het werkt
 
-## Samenwerken
+# DLC ronde 2
+## Analyseren
+Voor deze opdracht ga ik mijn profile card redesignen. Eerst moet ik hiervoor mijn gegevens in de database aanpassen.
+
+# Samenwerken
 Ik heb Sacha geholpen met het inladen van zijn afbeeldingen. Dit lukte mij eerst ook niet, maar na wat hulp van Krijn en Tom lukte mij dit en kon ik dus Sacha ermee helpen. Ik heb Sacha hierna ook nog uitgelegd wat perspective bij een flip betekent.
