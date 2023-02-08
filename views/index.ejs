@@ -1,35 +1,71 @@
 <%- include('./partials/head') %>
 
-  <article>
-    <header>
-      <h1>Gijs van de Putte</h1>
-    </header>
+  <article class="first-screen">
+    <h1>
+      Opstelling
+    </h1>
+    <h2>
+      JA1
+    </h2>
+    <img class="logo" src="/images/logo_gooische.png" alt="">
+    <img class="wout" src="/images/SuperWout.jpg" alt="">
+  </article>
+  <article class="second-screen">
+    <h3>
+      <%= member.name + ' ' + member.surname %>
+    </h3>
+    <div class="players rcv"></div>
+    <div class="players lcv"></div>
+    <div class="players ra"></div>
+    <div class="players la"></div>
+    <div class="players rcm"></div>
+    <div class="players lcm"></div>
+    <div class="players rv"></div>
+    <div class="players lv"></div>
+    <div class="players sp"></div>
+    <svg class="star" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M14.5 0L17.7555 10.7102H28.2903L19.7674 17.3295L23.0229 28.0398L14.5 21.4205L5.97711 28.0398L9.23257 17.3295L0.709681 10.7102H11.2445L14.5 0Z"
+        fill="#003B71" />
+    </svg>
+    <svg class="arrow-left" width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M29.4126 7.66453C29.7363 6.90196 29.3805 6.02137 28.6179 5.69768L16.1911 0.422806C15.4285 0.099114 14.5479 0.454895 14.2243 1.21747C13.9006 1.98004 14.2563 2.86063 15.0189 3.18432L26.065 7.87309L21.3762 18.9192C21.0525 19.6817 21.4083 20.5623 22.1709 20.886C22.9334 21.2097 23.814 20.8539 24.1377 20.0913L29.4126 7.66453ZM1.56191 19.3908L28.5937 8.46921L27.4699 5.68766L0.43809 16.6092L1.56191 19.3908Z"
+        fill="#003B71" />
+    </svg>
+    <svg class="arrow-right" width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M1.41391 5.69768C0.651339 6.02137 0.295557 6.90196 0.61925 7.66453L5.89412 20.0913C6.21781 20.8539 7.0984 21.2097 7.86097 20.886C8.62354 20.5623 8.97933 19.6817 8.65563 18.9192L3.96686 7.87309L15.0129 3.18432C15.7755 2.86063 16.1313 1.98004 15.8076 1.21747C15.4839 0.454895 14.6033 0.099114 13.8407 0.422806L1.41391 5.69768ZM29.5937 16.6092L2.56192 5.68766L1.4381 8.46921L28.4699 19.3908L29.5937 16.6092Z"
+        fill="#003B71" />
+    </svg>
+    <div class="goal"></div>
 
-    <img class="Baby" src="/images/BABY-foto.jpg" alt="Foto van mij als baby" />
-
-    <p class="geboorte">Ik ben geboren op 21 december 2004 in Amsterdam</p>
-
-    <p class="basisschool">In 2008 ben ik begonnen met de basisschool</p>
-
-    <p class="verhuizing">
-      In 2011 ben ik verhuisd van Amsterdam naar Bussum
-    </p>
-
-    <p class="overstap">
-      In 2016 heb ik de basisschool afgerond en begin ik aan VWO
-    </p>
-
-    <p class="hockey">In 2019 ben ik met hockey 2de van Nederland geworden</p>
-
-    <img class="nk" src="/images/2de-van-NL-2019.jpg" alt="teamfoto na het NK" />
-
-    <p class="slaging">In 2022 ben ik geslaagd voor mijn eindexamen VWO</p>
-
-    <img class="Geslaagd" src="/images/Geslaagd-foto.jpg" alt="Foto van mij toen ik geslaagd was" />
-
-    <p class="opleiding">In 2022 ga ik beginnen aan een nieuwe opleiding</p>
-
-    <img class="Pasfoto" src="/images/Pasfoto.jpg" alt="Pasfoto van paar weken geleden" />
+    <section class="modal">
+      <img class="weer" src="images/lekker-weer.jpg" alt="">
+      <img class="bos" src="images/bos.jpg" alt="">
+      <h4 class="tijdlijn">Tijdlijn</h4>
+      <p>
+        <%= member.bio.html %>
+      </p>
+    </section>
+    <section class="modals">
+      <h4 class="goals">
+        Goals
+      </h4>
+      <ul class="goal-list">
+        <div>
+          <li>HTML</li>
+          <li>CSS</li>
+        </div>
+        <div>
+          <li>JavaSript</li>
+          <li>Node</li>
+        </div>
+      </ul>
+      <img class="groningen" src="images/groningen.jpg" alt="">
+      <img class="china" src="images/china.jpg" alt="">
+      <img class="nk" src="images/2de-van-NL-2019.jpg" alt="">
+    </section>
   </article>
 
   <%- include('./partials/foot') %>
