@@ -23,5 +23,13 @@ Voor deze opdracht ga ik mijn profile card redesignen. Eerst moet ik hiervoor mi
 ## Ontwerpen
 Voor dit deel moesten we een nieuwe profile card ontwerpen. Ik heb mijn ontwerpen gemaakt in figma in dit bestand: https://www.figma.com/file/YbJfX3ImMBk0qNQm3xqnDb/Profile-card?node-id=0%3A1&t=SshRsZjIwYe2gz1y-1
 
+## Bouwen
+Ik heb zo goed mogelijk geprobeerd mijn design na te maken. Ik had wat moeite met het linken van mijn JavaScript file, maar dat is uiteindelijk toch gelukt na wat hulp van het internet.
+
+## Integreren
+Ik heb al mijn werk gepusht naar github en ik heb mijn project m.b.v. Cyclic live gezet op de volgende link: https://combative-bell-bottoms-eel.cyclic.app/
+
+## Testen
+
 # Samenwerken
 Ik heb Sacha geholpen met het inladen van zijn afbeeldingen. Dit lukte mij eerst ook niet, maar na wat hulp van Krijn en Tom lukte mij dit en kon ik dus Sacha ermee helpen. Ik heb Sacha hierna ook nog uitgelegd wat perspective bij een flip betekent.
