@@ -155,10 +155,11 @@ h3 {
     height: 11.2rem;
     left: 2.2rem;
     top: 28rem;
+    border-radius: 10px
     background-color: white;
     padding: 1rem 0 0 0;
     color: black;
-    transition: opacity 1.5s ease;
+    transition: opacity 1.5s cubic-bezier(0.27, 1.21, 0.6, -0.85);
     opacity: 0;
     pointer-events: none;
 }
@@ -200,7 +201,7 @@ h3 {
     border-radius: 20px;
     background-color: white;
     position: absolute;
-    transition: opacity 1.5s ease;
+    transition: opacity 1.5s cubic-bezier(0.27, 1.21, 0.6, -0.85);
     opacity: 0;
     pointer-events: none;
 }
