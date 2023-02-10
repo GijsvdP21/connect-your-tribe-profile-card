@@ -128,14 +128,45 @@ h3 {
 
 .arrow-left {
     position: absolute;
-    top: 2rem;
+    top: 2.2rem;
     left: 9.5rem;
+    animation: leftarrow 1s infinite;
 }
+
+@keyframes leftarrow {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
 
 .arrow-right {
     position: absolute;
-    top: 2rem;
-    right: 9.5rem;
+    top: 2.2rem;
+    right: 9.6rem;
+    animation: rightarrow 1s infinite;
+}
+
+@keyframes rightarrow {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
 }
 
 .goal {
